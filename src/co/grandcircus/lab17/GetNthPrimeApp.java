@@ -4,7 +4,7 @@ public class GetNthPrimeApp {
 
 	public static boolean isPrime(int num) {
 		// If the number is greater than 1
-		if (num < 1) {
+		if (num > 1) {
 			for (int i = 2; i < num; i++) {
 				// For all integers between 2 and num, perform modular division and check for
 				// remainder of zero

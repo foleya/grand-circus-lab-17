@@ -30,6 +30,15 @@ class GetNthPrimeAppTest {
 	}
 	
 	@Test
+	void test29isNotPrime() {
+		boolean expected = true;
+		
+		boolean actual = isPrime(29);
+		
+		assertEquals(expected, actual);
+	}
+	
+	@Test
 	void test30isNotPrime() {
 		boolean expected = false;
 		
